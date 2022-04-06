@@ -3,7 +3,7 @@
 Simple and intuitive Calculator App, easy to use and pretty straightfoward.
 
 Features:
-- Addiction multiply
+- Addition
 - Subtraction
 - multiplication
 - Division
