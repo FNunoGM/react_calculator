@@ -8,10 +8,10 @@ export default function Calculator() {
 
   function inputNum(e) {        //This function inputs the values with some conditions
     var input = e.target.value; 
-    if (num===0){               //it will input a value if screen value is 0 and replace it
+    if (num===0){               //it will input a value if the value is 0
       setNum(input);            //and it will save the value in memory
-    }else{                      //else it will concatenate with the previous input
-      setNum(num + input);
+    }else{                      
+      setNum(num + input);      //else it will concatenate with the previous input
     }
   } 
 
